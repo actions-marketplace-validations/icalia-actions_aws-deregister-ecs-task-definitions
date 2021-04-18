@@ -1,0 +1,17 @@
+name: De-register AWS ECS Task Definitions
+description: De-registers task definitions from AWS ECS.
+
+branding:
+  icon: activity
+  color: red
+
+inputs:
+  definition:
+    description: |
+      The family prefix, family + revision or full Amazon Resource Name (ARN) of
+      the task definition to deregister.
+    required: true
+
+runs:
+  using: node12
+  main: index.js
