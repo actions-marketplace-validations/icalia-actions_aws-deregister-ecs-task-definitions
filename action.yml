@@ -1,5 +1,6 @@
 name: De-register AWS ECS Task Definitions
 description: De-registers task definitions from AWS ECS.
+author: Icalia Labs
 
 branding:
   icon: activity
